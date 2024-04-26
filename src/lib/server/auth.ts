@@ -9,7 +9,7 @@ import { GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET } from '$env/static/private';
 const adapter = new DrizzleSQLiteAdapter(db, session, users);
 
 // TODO: replace with your own base URL for production
-const baseUrl = dev ? 'http://localhost:5173' : 'https://example.com';
+const baseUrl = dev ? 'http://localhost:5173' : 'https://blog.luxus.ai';
 
 enum AuthProvider {
 	Google = 'google'
