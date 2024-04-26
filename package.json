@@ -46,7 +46,9 @@
     "drizzle-orm": "^0.30.0"
   },
   "trustedDependencies": [
+    "@sveltejs/kit",
     "es5-ext",
+    "esbuild",
     "svelte-preprocess"
   ]
 }
